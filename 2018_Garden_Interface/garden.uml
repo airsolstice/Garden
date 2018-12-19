@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>garden.FileUtils</OriginalElement>
+  <nodes>
+    <node x="325.95833333333337" y="1081.0">garden.UserInterface</node>
+    <node x="161.8333333333334" y="693.0">garden.Garden</node>
+    <node x="97.81845238095246" y="548.0">garden.GardenUtils</node>
+    <node x="247.05505952380955" y="192.0">garden.Flowerbed</node>
+    <node x="306.3883928571428" y="0.0">garden.Flower</node>
+    <node x="0.0" y="12.5">garden.FileUtils</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="garden.Flowerbed" target="garden.Flower">
+      <point x="89.66666666666657" y="-148.0" />
+      <point x="471.22172619047615" y="167.0" />
+      <point x="486.3883928571428" y="167.0" />
+      <point x="60.0" y="71.0" />
+    </edge>
+    <edge source="garden.GardenUtils" target="garden.Flowerbed">
+      <point x="-76.25" y="-47.5" />
+      <point x="174.06845238095246" y="528.0" />
+      <point x="269.47172619047626" y="528.0" />
+      <point x="-112.08333333333331" y="148.0" />
+    </edge>
+    <edge source="garden.Garden" target="garden.GardenUtils">
+      <point x="-36.375" y="-169.0" />
+      <point x="270.95833333333337" y="673.0" />
+      <point x="250.31845238095246" y="673.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="garden.Garden" target="garden.UserInterface">
+      <point x="72.75" y="169.0" />
+      <point x="380.08333333333337" y="1061.0" />
+      <point x="386.70833333333337" y="1061.0" />
+      <point x="-20.25" y="-48.0" />
+    </edge>
+    <edge source="garden.UserInterface" target="garden.Flowerbed">
+      <point x="60.75" y="-48.0" />
+      <point x="467.70833333333337" y="1061.0" />
+      <point x="474.33333333333337" y="1061.0" />
+      <point x="474.33333333333337" y="528.0" />
+      <point x="493.638392857143" y="528.0" />
+      <point x="112.08333333333343" y="148.0" />
+    </edge>
+    <edge source="garden.UserInterface" target="garden.Garden">
+      <point x="-60.75" y="-48.0" />
+      <point x="346.20833333333337" y="1061.0" />
+      <point x="234.5833333333334" y="1061.0" />
+      <point x="-72.75" y="169.0" />
+    </edge>
+    <edge source="garden.Garden" target="garden.FileUtils">
+      <point x="-109.125" y="-169.0" />
+      <point x="198.2083333333334" y="673.0" />
+      <point x="61.25" y="673.0" />
+      <point x="-61.25" y="58.5" />
+    </edge>
+    <edge source="garden.Garden" target="garden.Flowerbed">
+      <point x="36.375" y="-169.0" />
+      <point x="343.70833333333337" y="663.0" />
+      <point x="413.31845238095246" y="663.0" />
+      <point x="413.31845238095246" y="528.0" />
+      <point x="359.1383928571429" y="528.0" />
+      <point x="-22.416666666666686" y="148.0" />
+    </edge>
+    <edge source="garden.Flowerbed" target="garden.FileUtils">
+      <point x="-89.66666666666674" y="-148.0" />
+      <point x="291.8883928571428" y="167.0" />
+      <point x="183.75" y="167.0" />
+      <point x="61.25" y="58.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="302.0" y="183.21428571428567" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
